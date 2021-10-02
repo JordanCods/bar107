@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+#avis p {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#coordonner img {
+  width: 100% !important;
+}
+#galerie img {
+  margin-top: 2% !important;
+}
+.hr {
+  width: 40%;
+  height: 2px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer {
+    font-size: 12px !important;
+  }
+  #galerie img {
+    width: 50%;
+  }
+}
